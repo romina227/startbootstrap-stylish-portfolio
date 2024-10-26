@@ -2860,6 +2860,18 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #1D809F;
 }
 
+.btn-custom {
+  background-color: #ff5733; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border-radius: 50px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado */
+  transition: background-color 0.3s; /* Efecto al pasar el ratón */
+}
+
+.btn-custom:hover {
+  background-color: #c70039; /* Color de fondo al pasar el ratón */
+}
+
 .btn-secondary {
   --bs-btn-color: #000;
   --bs-btn-bg: #ecb807;
